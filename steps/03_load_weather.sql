@@ -12,6 +12,10 @@ Last Updated: 1/9/2023
 USE ROLE HOL_ROLE;
 USE WAREHOUSE HOL_WH;
 
+use role accountadmin;
+drop DATABASE frostbyte_weathersource;
+USE ROLE HOL_ROLE;
+USE WAREHOUSE HOL_WH;
 
 -- ----------------------------------------------------------------------------
 -- Step #1: Connect to weather data in Marketplace
