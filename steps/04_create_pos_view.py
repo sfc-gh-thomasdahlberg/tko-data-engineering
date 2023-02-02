@@ -10,7 +10,7 @@
 # SNOWFLAKE ADVANTAGE: Streams on views
 
 
-from snowflake.snowpark import Session
+from snowflake.snowpark import session
 #import snowflake.snowpark.types as T
 import snowflake.snowpark.functions as F
 
